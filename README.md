@@ -1,2 +1,3 @@
 # ML-models-for-predicting-radius-of-gyration-from-sequence
 A few neural network architectures (CNNs, transformers etc.) and combinations of them for intrinsically disordered protein radius of gyration prediction using features derived directly from sequence.
+Dataset is 6400 Rg simulations I ran in LAMMPS software with Mpipi model. Sequences were generated to have 8 differing lengths, differing compositions with baseline composition being human IDRome, and different patternings. Currently only trained on fixed length, 150 beads (800 samples) to only predict based on sequence composition not length (strongest predictor of Rg).
